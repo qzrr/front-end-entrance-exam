@@ -18,7 +18,7 @@ import Midjourney from "/logoMidjourney.svg";
 
 import {exportToPdf} from "./downloadsFile.js";
 
-document.querySelector("#app").innerHTML = /*html*/ `<div>
+document.querySelector("#app").innerHTML =`<div>
     <div class="controls">
         <button id="download-btn">Скачать PDF</button>
     </div>
